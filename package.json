@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-i18nnext-to-js",
+  "version": "1.0.0",
+  "description": "Converts trans component to real translation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/__tests__/ "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josejamart/babel-plugin-i18nnext-to-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josejamart/babel-plugin-i18nnext-to-js/issues"
+  },
+  "homepage": "https://github.com/josejamart/babel-plugin-i18nnext-to-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-jest": "^26.0.1",
+    "babel-plugin-tester": "^9.1.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.8.3"
+  }
+}
